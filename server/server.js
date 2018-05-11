@@ -47,4 +47,4 @@ app.delete('/usuario/:id', function(req, res) {
 
     });
 });
-app.listen(process.env.port, () => console.log(`puerto abiero en http://localhost:${process.env.port}`));
+app.listen(process.env.PORT, () => console.log(`puerto abierto en http://localhost:${process.env.PORT}`));
